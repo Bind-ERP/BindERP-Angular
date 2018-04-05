@@ -12,8 +12,8 @@
 
 
 export interface ProductAlternativeUnits {
-    name?: string;
-    multiplier?: number;
-    salesUnit?: boolean;
-    purchaseUnit?: boolean;
+    Name?: string;
+    Multiplier?: number;
+    SalesUnit?: boolean;
+    PurchaseUnit?: boolean;
 }

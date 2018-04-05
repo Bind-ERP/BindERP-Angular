@@ -13,23 +13,23 @@ import { NewAddress } from './newAddress';
 
 
 export interface NewClient {
-    legalName: string;
-    commercialName: string;
+    LegalName: string;
+    CommercialName: string;
     RFC: string;
-    creditDays: number;
-    creditAmount: number;
-    priceListID: string;
-    accountingNumber: string;
-    email?: string;
-    paymentMethod?: number;
-    paymentTerm?: number;
-    locationID?: string;
-    salesEmployeeID?: string;
-    creditEmployeeID?: string;
-    comment?: string;
-    address?: NewAddress;
-    telephone?: string;
-    accountNumber?: string;
-    defaultDiscount?: number;
-    source?: string;
+    CreditDays: number;
+    CreditAmount: number;
+    PriceListID: string;
+    AccountingNumber: string;
+    Email?: string;
+    PaymentMethod?: number;
+    PaymentTerm?: number;
+    LocationID?: string;
+    SalesEmployeeID?: string;
+    CreditEmployeeID?: string;
+    Comment?: string;
+    Address?: NewAddress;
+    Telephone?: string;
+    AccountNumber?: string;
+    DefaultDiscount?: number;
+    Source?: string;
 }

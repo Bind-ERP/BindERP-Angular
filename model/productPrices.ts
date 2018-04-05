@@ -13,5 +13,5 @@ import { ProductPricesItems } from './productPricesItems';
 
 
 export interface ProductPrices {
-    items?: Array<ProductPricesItems>;
+    Items?: Array<ProductPricesItems>;
 }

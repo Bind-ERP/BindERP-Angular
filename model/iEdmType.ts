@@ -12,7 +12,7 @@
 
 
 export interface IEdmType {
-    typeKind?: IEdmType.TypeKindEnum;
+    TypeKind?: IEdmType.TypeKindEnum;
 }
 export namespace IEdmType {
     export type TypeKindEnum = 'None' | 'Primitive' | 'Entity' | 'Complex' | 'Row' | 'Collection' | 'EntityReference' | 'Enum';

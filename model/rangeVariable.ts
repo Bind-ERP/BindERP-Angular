@@ -13,7 +13,7 @@ import { IEdmTypeReference } from './iEdmTypeReference';
 
 
 export interface RangeVariable {
-    name?: string;
-    typeReference?: IEdmTypeReference;
-    kind?: number;
+    Name?: string;
+    TypeReference?: IEdmTypeReference;
+    Kind?: number;
 }

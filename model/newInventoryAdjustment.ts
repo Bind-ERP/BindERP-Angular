@@ -12,11 +12,11 @@
 
 
 export interface NewInventoryAdjustment {
-    productID: string;
-    warehouseID: string;
-    lotImportID?: string;
-    adjustQty: number;
-    date: string;
-    comments: string;
-    accountingAccountID?: string;
+    ProductID: string;
+    WarehouseID: string;
+    LotImportID?: string;
+    AdjustQty: number;
+    Date: string;
+    Comments: string;
+    AccountingAccountID?: string;
 }

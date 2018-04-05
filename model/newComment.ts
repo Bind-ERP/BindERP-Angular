@@ -12,6 +12,6 @@
 
 
 export interface NewComment {
-    externalID: string;
-    comment: string;
+    ExternalID: string;
+    Comment: string;
 }

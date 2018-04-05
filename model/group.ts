@@ -14,8 +14,8 @@ import { SubGroups } from './subGroups';
 
 export interface Group {
     ID?: string;
-    code?: string;
-    prefix?: string;
-    description?: string;
-    subGroups?: Array<SubGroups>;
+    Code?: string;
+    Prefix?: string;
+    Description?: string;
+    SubGroups?: Array<SubGroups>;
 }

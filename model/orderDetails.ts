@@ -9,7 +9,48 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
+import { OrderDetailsProduct } from './orderDetailsProduct';
+import { OrderDetailsService } from './orderDetailsService';
 
 
 export interface OrderDetails {
+    ID?: string;
+    ClientID?: string;
+    ClientName?: string;
+    PriceListName?: string;
+    PriceListID?: string;
+    LocationName?: string;
+    LocationID?: string;
+    WarehouseID?: string;
+    WarehouseName?: string;
+    OrderDate?: Date;
+    Comments?: string;
+    Number?: number;
+    Address?: string;
+    ClientContact?: string;
+    PhoneNumber?: string;
+    EmployeeName?: string;
+    EmployeeID?: string;
+    StatusCode?: number;
+    PurchaseOrder?: string;
+    Status?: string;
+    CurrencyName?: string;
+    CurrencyID?: string;
+    ExchangeRate?: number;
+    RFC?: string;
+    ServiceSubtotal?: number;
+    ProductSubtotal?: number;
+    Discount?: number;
+    VATRate?: number;
+    VAT?: number;
+    DiscountType?: number;
+    IEPS?: number;
+    IEPSRATE?: number;
+    ISRRet?: number;
+    ISRRetRate?: number;
+    VatRet?: number;
+    VatRetRate?: number;
+    Total?: number;
+    Products?: Array<OrderDetailsProduct>;
+    Services?: Array<OrderDetailsService>;
 }

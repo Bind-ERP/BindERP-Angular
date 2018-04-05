@@ -12,13 +12,13 @@
 
 
 export interface ODataRawQueryOptions {
-    filter?: string;
-    orderBy?: string;
-    top?: string;
-    skip?: string;
-    select?: string;
-    expand?: string;
-    inlineCount?: string;
-    format?: string;
-    skipToken?: string;
+    Filter?: string;
+    OrderBy?: string;
+    Top?: string;
+    Skip?: string;
+    Select?: string;
+    Expand?: string;
+    InlineCount?: string;
+    Format?: string;
+    SkipToken?: string;
 }

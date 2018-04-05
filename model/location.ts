@@ -13,5 +13,5 @@
 
 export interface Location {
     ID?: string;
-    name?: string;
+    Name?: string;
 }

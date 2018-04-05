@@ -13,9 +13,9 @@ import { ODataQueryContext } from './oDataQueryContext';
 
 
 export interface InlineCountQueryOption {
-    context?: ODataQueryContext;
-    rawValue?: string;
-    value?: InlineCountQueryOption.ValueEnum;
+    Context?: ODataQueryContext;
+    RawValue?: string;
+    Value?: InlineCountQueryOption.ValueEnum;
 }
 export namespace InlineCountQueryOption {
     export type ValueEnum = 'None' | 'AllPages';

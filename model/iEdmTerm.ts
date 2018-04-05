@@ -12,10 +12,10 @@
 
 
 export interface IEdmTerm {
-    termKind?: IEdmTerm.TermKindEnum;
-    schemaElementKind?: IEdmTerm.SchemaElementKindEnum;
-    namespace?: string;
-    name?: string;
+    TermKind?: IEdmTerm.TermKindEnum;
+    SchemaElementKind?: IEdmTerm.SchemaElementKindEnum;
+    Namespace?: string;
+    Name?: string;
 }
 export namespace IEdmTerm {
     export type TermKindEnum = 'None' | 'Type' | 'Value';

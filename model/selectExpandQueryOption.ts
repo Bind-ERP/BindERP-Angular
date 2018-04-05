@@ -15,9 +15,9 @@ import { SelectExpandQueryValidator } from './selectExpandQueryValidator';
 
 
 export interface SelectExpandQueryOption {
-    context?: ODataQueryContext;
-    rawSelect?: string;
-    rawExpand?: string;
-    validator?: SelectExpandQueryValidator;
-    selectExpandClause?: SelectExpandClause;
+    Context?: ODataQueryContext;
+    RawSelect?: string;
+    RawExpand?: string;
+    Validator?: SelectExpandQueryValidator;
+    SelectExpandClause?: SelectExpandClause;
 }

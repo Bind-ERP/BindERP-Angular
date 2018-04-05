@@ -13,22 +13,22 @@
 
 export interface EditClient {
     ID: string;
-    legalName: string;
-    commercialName: string;
+    LegalName: string;
+    CommercialName: string;
     RFC: string;
-    creditDays: number;
-    creditAmount: number;
-    paymentMethod?: number;
-    paymentTerm?: number;
-    locationID?: string;
-    salesEmployeeID?: string;
-    creditEmployeeID?: string;
-    priceListID: string;
-    comment?: string;
-    telephone?: string;
-    email?: string;
-    accountNumber?: string;
-    defaultDiscount?: number;
-    source?: string;
-    accountingNumber: string;
+    CreditDays: number;
+    CreditAmount: number;
+    PaymentMethod?: number;
+    PaymentTerm?: number;
+    LocationID?: string;
+    SalesEmployeeID?: string;
+    CreditEmployeeID?: string;
+    PriceListID: string;
+    Comment?: string;
+    Telephone?: string;
+    Email?: string;
+    AccountNumber?: string;
+    DefaultDiscount?: number;
+    Source?: string;
+    AccountingNumber: string;
 }

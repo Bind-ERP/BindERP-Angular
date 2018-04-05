@@ -12,10 +12,10 @@
 
 
 export interface ProductInventories {
-    warehouseName?: string;
-    min?: number;
-    max?: number;
-    location?: string;
-    visible?: boolean;
-    inventory?: number;
+    WarehouseName?: string;
+    Min?: number;
+    Max?: number;
+    Location?: string;
+    Visible?: boolean;
+    Inventory?: number;
 }

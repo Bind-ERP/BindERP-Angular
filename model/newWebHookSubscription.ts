@@ -13,5 +13,5 @@
 
 export interface NewWebHookSubscription {
     event: string;
-    targetUrl: string;
+    target_url: string;
 }

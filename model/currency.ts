@@ -13,7 +13,7 @@
 
 export interface Currency {
     ID?: string;
-    name?: string;
-    code?: string;
-    exchangeRate?: number;
+    Name?: string;
+    Code?: string;
+    ExchangeRate?: number;
 }

@@ -12,12 +12,12 @@
 
 
 export interface InvoiceDetailsService {
-    indexNumber?: number;
-    serviceID?: string;
-    name?: string;
-    code?: string;
-    qty?: number;
-    price?: number;
-    vATRate?: number;
-    discount?: number;
+    IndexNumber?: number;
+    ServiceID?: string;
+    Name?: string;
+    Code?: string;
+    Qty?: number;
+    Price?: number;
+    VATRate?: number;
+    Discount?: number;
 }

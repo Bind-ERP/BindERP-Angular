@@ -13,8 +13,8 @@
 
 export interface User {
     ID?: string;
-    fullName?: string;
-    jobPosition?: string;
-    locationID?: string;
-    email?: string;
+    FullName?: string;
+    JobPosition?: string;
+    LocationID?: string;
+    Email?: string;
 }

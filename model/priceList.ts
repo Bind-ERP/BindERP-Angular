@@ -13,5 +13,5 @@
 
 export interface PriceList {
     ID?: string;
-    name?: string;
+    Name?: string;
 }

@@ -14,7 +14,7 @@ import { IEdmVocabularyAnnotatable } from './iEdmVocabularyAnnotatable';
 
 
 export interface IEdmVocabularyAnnotation {
-    qualifier?: string;
-    term?: IEdmTerm;
-    target?: IEdmVocabularyAnnotatable;
+    Qualifier?: string;
+    Term?: IEdmTerm;
+    Target?: IEdmVocabularyAnnotatable;
 }

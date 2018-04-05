@@ -13,5 +13,5 @@ import { GLGroup } from './gLGroup';
 
 
 export interface AccountCategories {
-    gLGroups?: Array<GLGroup>;
+    GLGroups?: Array<GLGroup>;
 }

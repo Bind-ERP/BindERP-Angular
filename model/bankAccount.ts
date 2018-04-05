@@ -13,12 +13,12 @@
 
 export interface BankAccount {
     ID?: string;
-    type?: number;
-    typeText?: string;
-    bankID?: string;
-    bankName?: string;
-    name?: string;
-    balance?: number;
-    currencyID?: string;
-    currencyCode?: string;
+    Type?: number;
+    TypeText?: string;
+    BankID?: string;
+    BankName?: string;
+    Name?: string;
+    Balance?: number;
+    CurrencyID?: string;
+    CurrencyCode?: string;
 }

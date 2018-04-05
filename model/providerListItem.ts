@@ -13,11 +13,11 @@
 
 export interface ProviderListItem {
     ID?: string;
-    number?: number;
-    providerName?: string;
-    legalName?: string;
+    Number?: number;
+    ProviderName?: string;
+    LegalName?: string;
     RFC?: string;
-    email?: string;
-    phone?: string;
-    city?: string;
+    Email?: string;
+    Phone?: string;
+    City?: string;
 }

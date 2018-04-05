@@ -12,16 +12,16 @@
 
 
 export interface NewActivity {
-    externalID?: string;
-    externalIDType?: number;
-    comment: string;
-    startDate: Date;
-    endDate: Date;
-    eventType: string;
-    isPublic: boolean;
-    title: string;
-    repeatable: boolean;
-    repeatInterval?: number;
-    repeatType?: number;
-    repetitions?: number;
+    ExternalID?: string;
+    ExternalIDType?: number;
+    Comment: string;
+    StartDate: Date;
+    EndDate: Date;
+    EventType: string;
+    IsPublic: boolean;
+    Title: string;
+    Repeatable: boolean;
+    RepeatInterval?: number;
+    RepeatType?: number;
+    Repetitions?: number;
 }

@@ -13,13 +13,13 @@
 
 export interface NewInvoiceService {
     ID: string;
-    title: string;
-    price: number;
+    Title: string;
+    Price: number;
     VAT?: number;
-    qty: number;
-    comments?: string;
-    vATExempt?: boolean;
-    indexNumber?: number;
-    variableConcept?: boolean;
-    orderItemID?: string;
+    Qty: number;
+    Comments?: string;
+    VATExempt?: boolean;
+    IndexNumber?: number;
+    VariableConcept?: boolean;
+    OrderItemID?: string;
 }

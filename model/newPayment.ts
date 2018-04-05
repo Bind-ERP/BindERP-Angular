@@ -12,13 +12,13 @@
 
 
 export interface NewPayment {
-    invoiceID: string;
-    accountID: string;
-    date: Date;
-    reference: string;
-    comments?: string;
-    amount: number;
-    paymentTerm: number;
-    exchangeRate?: number;
-    exchangeRateAccount?: number;
+    InvoiceID: string;
+    AccountID: string;
+    Date: Date;
+    Reference: string;
+    Comments?: string;
+    Amount: number;
+    PaymentTerm: number;
+    ExchangeRate?: number;
+    ExchangeRateAccount?: number;
 }

@@ -92,6 +92,8 @@ export * from './orderByNode';
 export * from './orderByQueryOption';
 export * from './orderByQueryValidator';
 export * from './orderDetails';
+export * from './orderDetailsProduct';
+export * from './orderDetailsService';
 export * from './priceList';
 export * from './priceListPage';
 export * from './product';

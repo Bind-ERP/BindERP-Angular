@@ -14,7 +14,7 @@ import { IEdmType } from './iEdmType';
 
 
 export interface ODataQueryContext {
-    model?: IEdmModel;
-    elementType?: IEdmType;
-    elementClrType?: string;
+    Model?: IEdmModel;
+    ElementType?: IEdmType;
+    ElementClrType?: string;
 }

@@ -14,12 +14,12 @@ import { AccountingJournalItem } from './accountingJournalItem';
 
 export interface AccountingJournal {
     ID?: string;
-    documentID?: string;
-    type?: string;
-    applicationDate?: Date;
-    creationDate?: Date;
-    number?: number;
-    locationID?: string;
-    periodType?: string;
-    items?: Array<AccountingJournalItem>;
+    DocumentID?: string;
+    Type?: string;
+    ApplicationDate?: Date;
+    CreationDate?: Date;
+    Number?: number;
+    LocationID?: string;
+    PeriodType?: string;
+    Items?: Array<AccountingJournalItem>;
 }

@@ -14,8 +14,8 @@ import { EditAccountingJournalItem } from './editAccountingJournalItem';
 
 export interface EditAccountingJournal {
     ID: string;
-    date: Date;
-    comments?: string;
-    locationID?: string;
-    journalItems?: Array<EditAccountingJournalItem>;
+    Date: Date;
+    Comments?: string;
+    LocationID?: string;
+    JournalItems?: Array<EditAccountingJournalItem>;
 }

@@ -12,9 +12,9 @@
 
 
 export interface ProductPricesItems {
-    name?: string;
-    margin?: number;
-    price?: number;
-    currencyCode?: string;
-    type?: number;
+    Name?: string;
+    Margin?: number;
+    Price?: number;
+    CurrencyCode?: string;
+    Type?: number;
 }

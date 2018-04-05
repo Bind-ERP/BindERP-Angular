@@ -13,11 +13,11 @@
 
 export interface Prospect {
     ID?: string;
-    comments?: string;
-    company?: string;
-    email?: string;
-    isPublic?: boolean;
-    phone?: string;
-    phoneExt?: string;
-    name: string;
+    Comments?: string;
+    Company?: string;
+    Email?: string;
+    IsPublic?: boolean;
+    Phone?: string;
+    PhoneExt?: string;
+    Name: string;
 }

@@ -13,5 +13,5 @@
 
 export interface Category3 {
     ID?: string;
-    name?: string;
+    Name?: string;
 }

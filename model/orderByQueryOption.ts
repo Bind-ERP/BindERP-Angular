@@ -16,9 +16,9 @@ import { OrderByQueryValidator } from './orderByQueryValidator';
 
 
 export interface OrderByQueryOption {
-    context?: ODataQueryContext;
-    orderByNodes?: Array<OrderByNode>;
-    rawValue?: string;
-    validator?: OrderByQueryValidator;
-    orderByClause?: OrderByClause;
+    Context?: ODataQueryContext;
+    OrderByNodes?: Array<OrderByNode>;
+    RawValue?: string;
+    Validator?: OrderByQueryValidator;
+    OrderByClause?: OrderByClause;
 }

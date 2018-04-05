@@ -14,6 +14,6 @@ import { Category2 } from './category2';
 
 export interface Category1 {
     ID?: string;
-    name?: string;
-    subCategories?: Array<Category2>;
+    Name?: string;
+    SubCategories?: Array<Category2>;
 }

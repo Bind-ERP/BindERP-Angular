@@ -13,16 +13,16 @@
 
 export interface NewOrderProduct {
     ID: string;
-    price: number;
+    Price: number;
     VAT?: number;
-    indexNumber?: number;
+    IndexNumber?: number;
     IEPS?: number;
-    iEPSType?: number;
-    qty: number;
-    comments?: string;
-    vATExempt?: boolean;
-    requireLot?: boolean;
-    selectedImports?: Array<string>;
-    orderItemID?: string;
-    unit?: string;
+    IEPSType?: number;
+    Qty: number;
+    Comments?: string;
+    VATExempt?: boolean;
+    RequireLot?: boolean;
+    SelectedImports?: Array<string>;
+    OrderItemID?: string;
+    Unit?: string;
 }

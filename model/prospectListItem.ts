@@ -12,10 +12,10 @@
 
 
 export interface ProspectListItem {
-    companyName?: string;
-    prospectName?: string;
-    email?: string;
-    phone?: string;
+    CompanyName?: string;
+    ProspectName?: string;
+    Email?: string;
+    Phone?: string;
     ID?: string;
-    salesMan?: string;
+    SalesMan?: string;
 }

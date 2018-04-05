@@ -14,8 +14,8 @@ import { TopQueryValidator } from './topQueryValidator';
 
 
 export interface TopQueryOption {
-    context?: ODataQueryContext;
-    rawValue?: string;
-    value?: number;
-    validator?: TopQueryValidator;
+    Context?: ODataQueryContext;
+    RawValue?: string;
+    Value?: number;
+    Validator?: TopQueryValidator;
 }

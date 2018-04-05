@@ -12,16 +12,16 @@
 
 
 export interface EditService {
-    ID?: string;
-    code?: string;
-    title?: string;
-    currencyID?: string;
-    sATCompanyAccountID?: string;
-    measurementUnit?: string;
-    description?: string;
-    category1ID?: string;
-    category2ID?: string;
-    category3ID?: string;
-    variableConcept?: boolean;
-    chargeVAT?: boolean;
+    ID: string;
+    Code: string;
+    Title: string;
+    CurrencyID: string;
+    SATCompanyAccountID: string;
+    MeasurementUnit?: string;
+    Description?: string;
+    Category1ID?: string;
+    Category2ID?: string;
+    Category3ID?: string;
+    VariableConcept?: boolean;
+    ChargeVAT?: boolean;
 }

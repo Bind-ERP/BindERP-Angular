@@ -12,14 +12,14 @@
 
 
 export interface Inventory {
-    balance?: number;
-    clientOrdered?: number;
-    currentInventory?: number;
+    Balance?: number;
+    ClientOrdered?: number;
+    CurrentInventory?: number;
     ID?: string;
-    location?: string;
-    providedOrdered?: number;
+    Location?: string;
+    ProvidedOrdered?: number;
     SKU?: string;
-    title?: string;
-    value?: number;
-    code?: string;
+    Title?: string;
+    Value?: number;
+    Code?: string;
 }

@@ -14,6 +14,6 @@ import { Group } from './group';
 
 export interface GLGroup {
     ID?: string;
-    description?: string;
-    groups?: Array<Group>;
+    Description?: string;
+    Groups?: Array<Group>;
 }

@@ -12,7 +12,7 @@
 
 
 export interface OrderByNode {
-    direction?: OrderByNode.DirectionEnum;
+    Direction?: OrderByNode.DirectionEnum;
 }
 export namespace OrderByNode {
     export type DirectionEnum = 'Ascending' | 'Descending';

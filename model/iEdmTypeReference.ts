@@ -13,6 +13,6 @@ import { IEdmType } from './iEdmType';
 
 
 export interface IEdmTypeReference {
-    isNullable?: boolean;
-    definition?: IEdmType;
+    IsNullable?: boolean;
+    Definition?: IEdmType;
 }

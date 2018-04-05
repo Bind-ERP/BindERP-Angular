@@ -13,13 +13,13 @@
 
 export interface EditProvider {
     ID: string;
-    legalName: string;
-    commercialName: string;
+    LegalName: string;
+    CommercialName: string;
     RFC: string;
-    creditDays: number;
-    creditAmount: number;
-    sATCompanyAccountID?: string;
-    locationID?: string;
-    email?: string;
-    telephones?: string;
+    CreditDays: number;
+    CreditAmount: number;
+    SATCompanyAccountID?: string;
+    LocationID?: string;
+    Email?: string;
+    Telephones?: string;
 }

@@ -12,10 +12,10 @@
 
 
 export interface NewInvoicePayment {
-    paymentMethod: number;
-    accountID: string;
-    amount: number;
-    exchangeRate?: number;
-    exchangeRateAccount?: number;
-    reference: string;
+    PaymentMethod: number;
+    AccountID: string;
+    Amount: number;
+    ExchangeRate?: number;
+    ExchangeRateAccount?: number;
+    Reference: string;
 }

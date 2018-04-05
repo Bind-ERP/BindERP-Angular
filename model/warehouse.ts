@@ -13,7 +13,7 @@
 
 export interface Warehouse {
     ID?: string;
-    name?: string;
-    locationID?: string;
-    availableInOtherLoc?: boolean;
+    Name?: string;
+    LocationID?: string;
+    AvailableInOtherLoc?: boolean;
 }

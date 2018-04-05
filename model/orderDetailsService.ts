@@ -9,13 +9,14 @@
  * https://github.com/swagger-api/swagger-codegen.git
  * Do not edit the class manually.
  */
-import { ODataQueryContext } from './oDataQueryContext';
-import { SkipQueryValidator } from './skipQueryValidator';
 
 
-export interface SkipQueryOption {
-    Context?: ODataQueryContext;
-    RawValue?: string;
-    Value?: number;
-    Validator?: SkipQueryValidator;
+export interface OrderDetailsService {
+    IndexNumber?: number;
+    ServiceID?: string;
+    Name?: string;
+    Code?: string;
+    Qty?: number;
+    Price?: number;
+    VATRate?: number;
 }

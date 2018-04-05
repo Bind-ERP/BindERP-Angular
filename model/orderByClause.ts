@@ -15,11 +15,11 @@ import { SingleValueNode } from './singleValueNode';
 
 
 export interface OrderByClause {
-    thenBy?: OrderByClause;
-    expression?: SingleValueNode;
-    direction?: OrderByClause.DirectionEnum;
-    rangeVariable?: RangeVariable;
-    itemType?: IEdmTypeReference;
+    ThenBy?: OrderByClause;
+    Expression?: SingleValueNode;
+    Direction?: OrderByClause.DirectionEnum;
+    RangeVariable?: RangeVariable;
+    ItemType?: IEdmTypeReference;
 }
 export namespace OrderByClause {
     export type DirectionEnum = 'Ascending' | 'Descending';

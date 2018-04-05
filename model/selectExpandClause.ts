@@ -13,6 +13,6 @@ import { SelectItem } from './selectItem';
 
 
 export interface SelectExpandClause {
-    selectedItems?: Array<SelectItem>;
-    allSelected?: boolean;
+    SelectedItems?: Array<SelectItem>;
+    AllSelected?: boolean;
 }

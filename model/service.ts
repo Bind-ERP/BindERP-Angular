@@ -13,20 +13,20 @@
 
 export interface Service {
     ID?: string;
-    code?: string;
-    title?: string;
-    description?: string;
-    creationDate?: Date;
-    category1ID?: string;
-    category2ID?: string;
-    category3ID?: string;
-    chargeVAT?: boolean;
-    pricingType?: number;
-    pricingTypeText?: string;
-    unit?: string;
-    currencyID?: string;
-    currencyCode?: string;
-    variableConcept?: boolean;
-    sATCode?: number;
-    sATUnit?: number;
+    Code?: string;
+    Title?: string;
+    Description?: string;
+    CreationDate?: Date;
+    Category1ID?: string;
+    Category2ID?: string;
+    Category3ID?: string;
+    ChargeVAT?: boolean;
+    PricingType?: number;
+    PricingTypeText?: string;
+    Unit?: string;
+    CurrencyID?: string;
+    CurrencyCode?: string;
+    VariableConcept?: boolean;
+    SATCode?: number;
+    SATUnit?: number;
 }

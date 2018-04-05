@@ -12,16 +12,16 @@
 
 
 export interface NewProduct {
-    title: string;
-    cost: number;
-    price: number;
-    currencyId: string;
-    exchangeRate?: number;
-    code: string;
-    description?: string;
+    Title: string;
+    Cost: number;
+    Price: number;
+    CurrencyId: string;
+    ExchangeRate?: number;
+    Code: string;
+    Description?: string;
     SKU?: string;
-    category1Id?: string;
-    category2Id?: string;
-    category3Id?: string;
+    Category1Id?: string;
+    Category2Id?: string;
+    Category3Id?: string;
     IEPS?: number;
 }

@@ -12,9 +12,9 @@
 
 
 export interface IEdmSchemaElement {
-    schemaElementKind?: IEdmSchemaElement.SchemaElementKindEnum;
-    namespace?: string;
-    name?: string;
+    SchemaElementKind?: IEdmSchemaElement.SchemaElementKindEnum;
+    Namespace?: string;
+    Name?: string;
 }
 export namespace IEdmSchemaElement {
     export type SchemaElementKindEnum = 'None' | 'TypeDefinition' | 'Function' | 'ValueTerm' | 'EntityContainer';

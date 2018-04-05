@@ -12,9 +12,9 @@
 
 
 export interface AccountingJournalItem {
-    accountID?: string;
-    accountName?: string;
-    description?: string;
-    debit?: number;
-    charge?: number;
+    AccountID?: string;
+    AccountName?: string;
+    Description?: string;
+    Debit?: number;
+    Charge?: number;
 }

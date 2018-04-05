@@ -15,7 +15,7 @@ import { SingleValueNode } from './singleValueNode';
 
 
 export interface FilterClause {
-    expression?: SingleValueNode;
-    rangeVariable?: RangeVariable;
-    itemType?: IEdmTypeReference;
+    Expression?: SingleValueNode;
+    RangeVariable?: RangeVariable;
+    ItemType?: IEdmTypeReference;
 }

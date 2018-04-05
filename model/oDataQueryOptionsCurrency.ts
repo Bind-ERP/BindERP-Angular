@@ -21,16 +21,16 @@ import { TopQueryOption } from './topQueryOption';
 
 
 export interface ODataQueryOptionsCurrency {
-    ifMatch?: any;
-    ifNoneMatch?: any;
-    context?: ODataQueryContext;
-    request?: any;
-    rawValues?: ODataRawQueryOptions;
-    selectExpand?: SelectExpandQueryOption;
-    filter?: FilterQueryOption;
-    orderBy?: OrderByQueryOption;
-    skip?: SkipQueryOption;
-    top?: TopQueryOption;
-    inlineCount?: InlineCountQueryOption;
-    validator?: ODataQueryValidator;
+    IfMatch?: any;
+    IfNoneMatch?: any;
+    Context?: ODataQueryContext;
+    Request?: any;
+    RawValues?: ODataRawQueryOptions;
+    SelectExpand?: SelectExpandQueryOption;
+    Filter?: FilterQueryOption;
+    OrderBy?: OrderByQueryOption;
+    Skip?: SkipQueryOption;
+    Top?: TopQueryOption;
+    InlineCount?: InlineCountQueryOption;
+    Validator?: ODataQueryValidator;
 }

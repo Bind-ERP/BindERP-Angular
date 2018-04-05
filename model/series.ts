@@ -13,11 +13,11 @@
 
 export interface Series {
     ID?: string;
-    serie?: string;
-    startNumber?: number;
-    currentNumber?: number;
-    date?: Date;
-    docType?: number;
-    docTypeText?: string;
-    locations?: Array<string>;
+    Serie?: string;
+    StartNumber?: number;
+    CurrentNumber?: number;
+    Date?: Date;
+    DocType?: number;
+    DocTypeText?: string;
+    Locations?: Array<string>;
 }

@@ -12,7 +12,7 @@
 
 
 export interface NewAccount {
-    subGroupID: string;
-    description: string;
-    depreciation?: number;
+    SubGroupID: string;
+    Description: string;
+    Depreciation?: number;
 }

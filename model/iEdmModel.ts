@@ -15,8 +15,8 @@ import { IEdmVocabularyAnnotation } from './iEdmVocabularyAnnotation';
 
 
 export interface IEdmModel {
-    schemaElements?: Array<IEdmSchemaElement>;
-    vocabularyAnnotations?: Array<IEdmVocabularyAnnotation>;
-    referencedModels?: Array<IEdmModel>;
-    directValueAnnotationsManager?: IEdmDirectValueAnnotationsManager;
+    SchemaElements?: Array<IEdmSchemaElement>;
+    VocabularyAnnotations?: Array<IEdmVocabularyAnnotation>;
+    ReferencedModels?: Array<IEdmModel>;
+    DirectValueAnnotationsManager?: IEdmDirectValueAnnotationsManager;
 }

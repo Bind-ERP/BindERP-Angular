@@ -12,14 +12,14 @@
 
 
 export interface ProspectDetails {
-    comments?: string;
-    company?: string;
-    creationDate?: Date;
-    email?: string;
-    employeeID?: string;
+    Comments?: string;
+    Company?: string;
+    CreationDate?: Date;
+    Email?: string;
+    EmployeeID?: string;
     ID?: string;
-    isPublic?: boolean;
-    name?: string;
-    phone?: string;
-    phoneExt?: string;
+    IsPublic?: boolean;
+    Name?: string;
+    Phone?: string;
+    PhoneExt?: string;
 }

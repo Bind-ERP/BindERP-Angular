@@ -12,13 +12,13 @@
 
 
 export interface NewAddress {
-    streetName: string;
-    interiorNumber?: string;
-    exteriorNumber: string;
-    colonia: string;
-    comments?: string;
-    zipCode: string;
-    localidad?: string;
-    city: string;
-    state: string;
+    StreetName: string;
+    InteriorNumber?: string;
+    ExteriorNumber: string;
+    Colonia: string;
+    Comments?: string;
+    ZipCode: string;
+    Localidad?: string;
+    City: string;
+    State: string;
 }

@@ -13,7 +13,7 @@
 
 export interface WebHookSubscription {
     ID?: string;
-    eventID?: string;
-    targetURL?: string;
-    eventName?: string;
+    EventID?: string;
+    TargetURL?: string;
+    EventName?: string;
 }

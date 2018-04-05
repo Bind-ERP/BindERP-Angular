@@ -13,12 +13,12 @@
 
 export interface Account {
     ID?: string;
-    gLGroup?: string;
-    group?: string;
-    subGroup?: string;
-    gLGroupID?: string;
-    groupID?: string;
-    subGroupID?: string;
-    number?: string;
-    description?: string;
+    GLGroup?: string;
+    Group?: string;
+    SubGroup?: string;
+    GLGroupID?: string;
+    GroupID?: string;
+    SubGroupID?: string;
+    Number?: string;
+    Description?: string;
 }

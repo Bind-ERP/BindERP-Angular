@@ -13,7 +13,7 @@
 
 export interface SubGroups {
     ID?: string;
-    code?: string;
-    prefix?: string;
-    description?: string;
+    Code?: string;
+    Prefix?: string;
+    Description?: string;
 }

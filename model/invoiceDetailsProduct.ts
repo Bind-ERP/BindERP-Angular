@@ -12,17 +12,17 @@
 
 
 export interface InvoiceDetailsProduct {
-    productID?: string;
-    name?: string;
-    indexNumber?: number;
-    code?: string;
-    unit?: string;
-    unitMultiplier?: number;
-    qty?: number;
-    price?: number;
-    vATRate?: number;
-    iEPSRate?: number;
-    discount?: number;
-    comments?: string;
-    lotInfo?: string;
+    ProductID?: string;
+    Name?: string;
+    IndexNumber?: number;
+    Code?: string;
+    Unit?: string;
+    UnitMultiplier?: number;
+    Qty?: number;
+    Price?: number;
+    VATRate?: number;
+    IEPSRate?: number;
+    Discount?: number;
+    Comments?: string;
+    LotInfo?: string;
 }

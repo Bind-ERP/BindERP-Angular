@@ -13,23 +13,23 @@
 
 export interface EditProduct {
     ID: string;
-    code: string;
-    title: string;
-    cost: number;
-    currencyID: string;
-    exchangeRate?: number;
+    Code: string;
+    Title: string;
+    Cost: number;
+    CurrencyID: string;
+    ExchangeRate?: number;
     SKU?: string;
-    description?: string;
-    costType?: number;
-    category1ID?: string;
-    category2ID?: string;
-    category3ID?: string;
-    chargeVAT?: boolean;
-    number?: number;
-    pricingType?: number;
-    unit?: string;
-    purchaseType?: number;
-    iEPSRate?: number;
-    type?: number;
-    productionAuto?: boolean;
+    Description?: string;
+    CostType?: number;
+    Category1ID?: string;
+    Category2ID?: string;
+    Category3ID?: string;
+    ChargeVAT?: boolean;
+    Number?: number;
+    PricingType?: number;
+    Unit?: string;
+    PurchaseType?: number;
+    IEPSRate?: number;
+    Type?: number;
+    ProductionAuto?: boolean;
 }

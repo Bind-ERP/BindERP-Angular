@@ -13,5 +13,5 @@
 
 export interface Bank {
     ID?: string;
-    name?: string;
+    Name?: string;
 }

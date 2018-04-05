@@ -13,8 +13,8 @@ import { IEdmTypeReference } from './iEdmTypeReference';
 
 
 export interface SingleValueNode {
-    typeReference?: IEdmTypeReference;
-    kind?: SingleValueNode.KindEnum;
+    TypeReference?: IEdmTypeReference;
+    Kind?: SingleValueNode.KindEnum;
 }
 export namespace SingleValueNode {
     export type KindEnum = 'None' | 'Constant' | 'Convert' | 'NonentityRangeVariableReference' | 'BinaryOperator' | 'UnaryOperator' | 'SingleValuePropertyAccess' | 'CollectionPropertyAccess' | 'SingleValueFunctionCall' | 'Any' | 'CollectionNavigationNode' | 'SingleNavigationNode' | 'SingleValueOpenPropertyAccess' | 'SingleEntityCast' | 'All' | 'EntityCollectionCast' | 'EntityRangeVariableReference' | 'SingleEntityFunctionCall' | 'CollectionFunctionCall' | 'EntityCollectionFunctionCall' | 'NamedFunctionParameter';

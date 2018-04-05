@@ -13,12 +13,12 @@
 
 export interface ClientListItem {
     ID?: string;
-    number?: number;
-    clientName?: string;
-    legalName?: string;
+    Number?: number;
+    ClientName?: string;
+    LegalName?: string;
     RFC?: string;
-    email?: string;
-    phone?: string;
-    city?: string;
-    nextContactDate?: Date;
+    Email?: string;
+    Phone?: string;
+    City?: string;
+    NextContactDate?: Date;
 }

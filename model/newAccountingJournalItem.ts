@@ -12,8 +12,8 @@
 
 
 export interface NewAccountingJournalItem {
-    sATCompanyAccountID: string;
-    cargo: number;
-    abono: number;
-    comments?: string;
+    SATCompanyAccountID: string;
+    Cargo: number;
+    Abono: number;
+    Comments?: string;
 }

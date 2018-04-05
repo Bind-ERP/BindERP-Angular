@@ -15,8 +15,8 @@ import { ODataQueryContext } from './oDataQueryContext';
 
 
 export interface FilterQueryOption {
-    context?: ODataQueryContext;
-    validator?: FilterQueryValidator;
-    filterClause?: FilterClause;
-    rawValue?: string;
+    Context?: ODataQueryContext;
+    Validator?: FilterQueryValidator;
+    FilterClause?: FilterClause;
+    RawValue?: string;
 }

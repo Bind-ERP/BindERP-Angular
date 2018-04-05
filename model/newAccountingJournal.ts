@@ -13,8 +13,8 @@ import { NewAccountingJournalItem } from './newAccountingJournalItem';
 
 
 export interface NewAccountingJournal {
-    date: Date;
-    comments?: string;
-    locationID?: string;
-    journalItems?: Array<NewAccountingJournalItem>;
+    Date: Date;
+    Comments: string;
+    LocationID?: string;
+    JournalItems: Array<NewAccountingJournalItem>;
 }

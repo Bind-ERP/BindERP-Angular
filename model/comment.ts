@@ -13,8 +13,8 @@
 
 export interface Comment {
     ID?: string;
-    externalID?: string;
-    comments?: string;
-    creationDate?: Date;
-    employeeName?: string;
+    ExternalID?: string;
+    Comments?: string;
+    CreationDate?: Date;
+    EmployeeName?: string;
 }

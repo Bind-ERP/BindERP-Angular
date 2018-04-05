@@ -13,6 +13,6 @@
 
 export interface WebHook {
     ID?: string;
-    eventName?: string;
-    eventDescription?: string;
+    EventName?: string;
+    EventDescription?: string;
 }
